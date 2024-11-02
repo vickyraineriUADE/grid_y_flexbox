@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: linear-gradient(rgb(95, 95, 95), rgb(201, 201, 201));
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+h1 {
+    margin: 5rem 3rem;
+}
+
+.container {
+    margin: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.obras {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0) , rgba(0, 0, 0, 1));
+    padding: 7px 6px;
+    width: 97%;
+    border-radius: 0px 0px 15px 15px;
+}
+
+img {
+    border-radius: 15px;
+    width: 25rem;
+    height: 100%;
+}
